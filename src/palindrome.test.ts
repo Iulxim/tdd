@@ -11,5 +11,9 @@ describe('palindrome', () => {
 
   it("should be trimmed for spaces", () => {
     expect(palindrome(" Palindrome ")).toBe("palindrome");
+  });
+
+  it("should be reversed", () => {
+    expect(palindrome("palindrome")).toBe("emordnilap");
   })
 });
