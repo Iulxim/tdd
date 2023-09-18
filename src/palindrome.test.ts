@@ -8,4 +8,8 @@ describe('palindrome', () => {
   it("should be reversed", () => {
     expect(palindrome("Palindrome")).toBe("emordnilaP");
   });
+
+  it("Input should be lowerCase", () => {
+    expect(palindrome("PALINdrome")).toBe("palindrome");
+  })
 });
