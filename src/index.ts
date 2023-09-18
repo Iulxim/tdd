@@ -8,5 +8,7 @@ export function palindrome(str: string) {
     return 'Your input should not be an empty string';
   }
 
-  return str.split('').reverse().join('');
+  const reversedString = str.split('').reverse().join('');
+
+  return reversedString;
 }
