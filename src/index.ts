@@ -4,5 +4,9 @@ export default function sum(a: number, b: number) {
 
 
 export function palindrome(input: string) {
+  if (input === "") {
+    return 'Your input should not be an empty string';
+  }
+
   return input;
 }
