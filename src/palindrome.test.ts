@@ -14,6 +14,6 @@ describe('palindrome', () => {
   });
 
   it("should be reversed", () => {
-    expect(palindrome("palindrome")).toBe("emordnilap");
+    expect(palindrome("palindrome", true)).toBe("emordnilap");
   })
 });
