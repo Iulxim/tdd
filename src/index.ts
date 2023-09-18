@@ -7,8 +7,7 @@ export function palindrome(str: string) {
   if (str === "") {
     return 'Your input should not be an empty string';
   }
+  const lowerCaseString = str.toLowerCase();
 
-  const reversedString = str.split('').reverse().join('');
-
-  return reversedString;
+  return lowerCaseString;
 }
