@@ -3,10 +3,10 @@ export default function sum(a: number, b: number) {
 }
 
 
-export function palindrome(input: string) {
-  if (input === "") {
+export function palindrome(str: string) {
+  if (str === "") {
     return 'Your input should not be an empty string';
   }
 
-  return input;
+  return str;
 }
