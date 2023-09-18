@@ -8,5 +8,8 @@ describe('palindrome', () => {
   it("Input should be lowerCase", () => {
     expect(palindrome("PALINdrome")).toBe("palindrome");
   });
-  
+
+  it("should be trimmed for spaces", () => {
+    expect(palindrome(" Palindrome ")).toBe("palindrome");
+  })
 });
