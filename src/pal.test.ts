@@ -25,4 +25,8 @@ describe('palindrome', () => {
     expect(isPalindrome("Was It A Rat I Saw")).toBe(true)
   })
 
+  it("should check if sentences like 'Never Odd or Even' is palindrome", () => {
+    expect(isPalindrome("Never Odd or Even")).toBe(true);
+  })
+
 });
