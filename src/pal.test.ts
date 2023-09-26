@@ -9,4 +9,8 @@ describe('palindrome', () => {
     expect(isPalindrome("wow")).toBe(true);
   });
 
+  it("mom should be a palindrom", () => {
+    expect(isPalindrome("mom")).toBe(true)
+  })
+
 });
