@@ -4,5 +4,5 @@ export default function sum(a: number, b: number) {
 
 
 export function palindrome(str: string) {
-  return str;
+  return false;
 }
