@@ -3,6 +3,9 @@ export default function sum(a: number, b: number) {
 }
 
 
-export function palindrome(str: string) {
+export function isPalindrome(str: string) {
+  if (str === "") {
+    return false;
+  }
   return false;
 }
