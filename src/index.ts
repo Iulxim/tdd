@@ -7,5 +7,5 @@ export function isPalindrome(str: string) {
   if (str === "") {
     return false;
   }
-  return false;
+  return str === str.split('').reverse().join('');
 }
