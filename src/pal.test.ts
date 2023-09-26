@@ -11,6 +11,10 @@ describe('palindrome', () => {
 
   it("mom should be a palindrom", () => {
     expect(isPalindrome("mom")).toBe(true)
+  });
+
+  it("bill should not be a palindrom", () => {
+    expect(isPalindrome("bill")).toBe(false);
   })
 
 });
