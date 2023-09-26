@@ -7,6 +7,6 @@ export function isPalindrome(str: string) {
   if (str === "") {
     return false;
   }
-  const strLowerCase = str.toLowerCase();
+  const strLowerCase = str.replace(/\s/g, '').toLowerCase();
   return strLowerCase === strLowerCase.split('').reverse().join('');
 }
