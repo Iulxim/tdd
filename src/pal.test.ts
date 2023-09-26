@@ -17,4 +17,8 @@ describe('palindrome', () => {
     expect(isPalindrome("bill")).toBe(false);
   })
 
+  it("should check for casing", () => {
+    expect(isPalindrome("Mom")).toBe(true)
+  })
+
 });
