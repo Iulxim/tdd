@@ -21,4 +21,8 @@ describe('palindrome', () => {
     expect(isPalindrome("Mom")).toBe(true)
   })
 
+  it("should check if sentences like 'Was It A Rat I Saw' is palindrome", () => {
+    expect(isPalindrome("Was It A Rat I Saw")).toBe(true)
+  })
+
 });
